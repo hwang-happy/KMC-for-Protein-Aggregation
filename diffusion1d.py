@@ -1,5 +1,7 @@
 #@ Ace Shen, 8/22/2017
-# This is a python script solving diffusion PDE, d phi / d t = D d^2 phi / d x^2, in 1-d using kinetic Monte Carlo method. The data is compared to the analytical solution in the plot. Certainly, increasing number of sample would improve the accuracy of the KMC simulation.
+# This is a python script solving diffusion PDE, d phi / d t = D d^2 phi / d x^2, in 1-d using kinetic Monte Carlo method. 
+# The data is compared to the analytical solution in the plot. 
+# Certainly, increasing number of sample would improve the accuracy of the KMC simulation.
 
 
 
