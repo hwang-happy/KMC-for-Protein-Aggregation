@@ -19,4 +19,9 @@ Timeline <br />
 Short-term goal, a warm-up for using KMC: <br />
 Solving one dimensional diffusion equation using KMC. <br />
 
-https://latex.codecogs.com/svg.latex?y%3Dx%5E2
+The diffustion equation reads <br />
+d phi / dt = D^2 d^2 phi / dx^2. 
+
+Consider a particle is placed on a lattice with N grids. The particle can either go right or left with half of a grid spacing h with the same rate k. 
+The relation between the transition rate and the diffusion coefficient is<br />
+k = D / h^2
