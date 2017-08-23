@@ -18,4 +18,5 @@ Timeline <br />
 
 Short-term goal, a warm-up for using KMC: <br />
 Solving one dimensional diffusion equation using KMC. <br />
-How to connect the trasition rate between states to the diffusion coefficients in diffusion equation? <br />
+
+https://latex.codecogs.com/svg.latex?y%3Dx%5E2
