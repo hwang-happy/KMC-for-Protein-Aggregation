@@ -22,11 +22,10 @@ Solving one dimensional diffusion equation using KMC. <br />
 The diffustion equation reads <br />
 d phi / dt = D^2 d^2 phi / dx^2. 
 
-Consider a particle is placed on a lattice with N grids. The particle can either go right or left with half of a grid spacing h with the same rate k. 
-The relation between the transition rate and the diffusion coefficient is<br />
+**Consider a particle is placed on a lattice with N grids. The particle can either go right or left with half of a grid spacing h with the same rate k. 
+**The relation between the transition rate and the diffusion coefficient is<br />
 k = D / h^2.
 
-Now let each sample runs for a while and then plot the number of particles on the grid. This could compare to the analytical solution, which read as probability distribution in this context.<br />
+**Now let each sample runs for a while and then plot the number of particles on the grid. This could compare to the analytical solution, which read as probability distribution in this context.<br />
 
-multiparticle?
-drifting?
+
