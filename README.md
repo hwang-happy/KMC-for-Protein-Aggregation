@@ -37,5 +37,7 @@ Now let each sample runs for a while and then plot the number of particles on th
 To simulate diffusion, processing of information from different locations is needed, which can be realized by either setting up grids or making compartments. The basic idea of the compartment-based approach relies on the "hopping" of a single particle from one compartment to another. If we view the hopping process as a "chemical reaction" between two compartments, then the Gillespie SSA is applicable to diffusion, with the rate constant being D/h^2, where h is the length of the compartment.
 
 
+** Gillespie SSA
 
+The idea of Gillespie algorithm is similar to KMC. Taking diffusion for example, the "chemical raction" describing the diffusion process is A_i -> A_(i+1) with a rate constant d, where the subscript i indicates different compartments. Now, we initialize the system to be in A_i, then through the same process as KMC, a random number would "chose" a particular i, and thus chose where a diffusion process happens.
 
