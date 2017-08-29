@@ -102,7 +102,9 @@ plt.ylabel('Probability density', fontsize = 18);
 plt.tick_params(axis='both', labelsize = 15)
 plt.legend(['SSA','Analytical'], fontsize = 15)
 plt.title('Diffusion in 1d, t='+str(round(t,3)),fontsize = 18)
-plt.savefig("1d.pdf",format="pdf",dpi=1200)
+
+
+#plt.savefig("1d.pdf",format="pdf",dpi=1200)
 
 #plt.axis([0, 40, 0, 50])
 
