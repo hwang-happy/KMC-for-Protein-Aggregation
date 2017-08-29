@@ -30,6 +30,8 @@ k = D / h^2.
 Now let each sample runs for a while and then plot the number of particles on the grid. This could compare to the analytical solution, which read as probability distribution in this context.<br />
 ==== Old ====================
 
+
+
 ** Compartment-based approach to diffusion
 
 To simulate diffusion, processing of information from different locations is needed, which can be realized by either setting up grids or making compartments. The basic idea of the compartment-based approach relies on the "hopping" of a single particle from one compartment to another. If we view the hopping process as a "chemical reaction" between two compartments, then the Gillespie SSA is applicable to diffusion, with the rate constant being D/h^2, where h is the length of the compartment.
