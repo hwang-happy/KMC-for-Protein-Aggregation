@@ -37,6 +37,14 @@ To simulate diffusion, processing of information from different locations is nee
 The idea of Gillespie algorithm is similar to KMC. Taking diffusion for example, the "chemical raction" describing the diffusion process is A_i -> A_(i+1) with a rate constant d, where the subscript i indicates different compartments. Now, we initialize the system to be in A_i, then through the same process as KMC, a random number would "chose" a particular i, and thus chose where a diffusion process happens.
 
 
-** Note for the diffusion1d_interaction.py
+** Note for the diffusion1d_aatoa2.py
+
+It's a script solving the reaction-diffusion equation using Gillespie SSA. The chemical reactions, besides diffusion, are<br />
+a + a -> a2 with rate constant kp<br />
+a2 -> a + a with rate constant km<br />.
+Diffusion of a2 particles are ignored for now. 
+
+** This is only for dimer, a2. If we need a3, a4, ... to an where an could be an aggregation of a thousand particles, it seems this algorithm is not applicable. Maybe we could invent a new algorithm to attack this problem.
+
 
 
