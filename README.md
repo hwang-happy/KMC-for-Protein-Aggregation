@@ -14,12 +14,7 @@ Consider in a tube or in a cell, there are whole bunch of proteins floating in i
 each other and thus they could form protein aggregation (PA).  
 
 
-Timeline <br />
-
-Short-term goal, a warm-up for using KMC: <br />
-Solving one dimensional diffusion equation using KMC. <br />
-
-The diffustion equation reads <br />
+** The diffustion equation reads <br />
 d phi / dt = D^2 d^2 phi / dx^2. 
 
 ==== Old ==================
@@ -40,4 +35,8 @@ To simulate diffusion, processing of information from different locations is nee
 ** Gillespie SSA
 
 The idea of Gillespie algorithm is similar to KMC. Taking diffusion for example, the "chemical raction" describing the diffusion process is A_i -> A_(i+1) with a rate constant d, where the subscript i indicates different compartments. Now, we initialize the system to be in A_i, then through the same process as KMC, a random number would "chose" a particular i, and thus chose where a diffusion process happens.
+
+
+** Note for the diffusion1d_interaction.py
+
 
