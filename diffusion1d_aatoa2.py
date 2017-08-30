@@ -3,6 +3,7 @@
 # Gillespie Algorithm, solving reaction-diffusion equation.
 # Ver. 2
 # Including nucleation, a + a -> a2
+# The diffusion of a2 is ignored.
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -147,7 +148,7 @@ plt.ylabel('Number of molecules', fontsize = 16);
 plt.tick_params(axis='both', labelsize = 13)
 plt.legend(['A','AA'], fontsize = 12)
 plt.title('Diffusion in 1d, t='+str(round(t,3)),fontsize = 18)
-plt.savefig("1d.pdf",format="pdf",dpi=1200)
+#plt.savefig("1d.pdf",format="pdf",dpi=1200)
 
 #plt.axis([0, 40, 0, 50])
 
